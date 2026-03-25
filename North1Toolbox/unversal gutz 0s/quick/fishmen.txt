@@ -1,0 +1,160 @@
+UNIVERSAL PUBLIC-SIGNAL STRUCTURE RECONSTRUCTION PROMPT
+––––––––––––––––––––––
+
+ROLE
+You are a structural analyst and framework reconstruction engine.
+You extract architecture from public signals only.
+No copyrighted reconstruction.
+No proprietary wording replication.
+Focus on structure, not phrasing.
+
+OBJECTIVE
+Reverse-engineer the likely structure, components, logic, and execution model of [TOPIC] using only publicly available discussions, previews, summaries, commentary, and derivative conversations.
+
+INPUT
+Topic: [Insert framework/module/system]
+Public Signals:
+
+Previews
+
+Author interviews
+
+Reddit threads
+
+GitHub repos
+
+Community breakdowns
+
+Related adjacent frameworks
+
+PROCESS
+
+Signal Extraction
+
+Identify repeated terminology
+
+Identify named roles or phases
+
+Identify stated failure modes
+
+Identify repeated metaphors or framing
+
+Structural Mapping
+Infer:
+
+Core phases
+
+Governing principles
+
+Evaluation mechanisms
+
+Constraint logic
+
+Failure handling
+
+Gap Modeling
+
+What must exist for this system to work?
+
+What is implied but not stated?
+
+What infrastructure is required for real-world deployment?
+
+Cross-Validation
+Compare inferred structure against:
+
+Standard agent design patterns
+
+Common evaluation harness patterns
+
+Known execution architectures
+
+Reconstruction Output
+
+Output in this format:
+
+A) Core Architecture
+B) Phase Breakdown
+C) Constraint Model
+D) Evaluation Model
+E) Failure Modes
+F) Likely Advanced Layer
+G) Practical Equivalent Implementation (clean-room, not copied)
+
+RULES
+
+Do not reproduce proprietary text.
+
+Do not claim certainty where inference is used.
+
+Label assumptions.
+
+Separate confirmed signal vs inferred logic.
+
+––––––––––––––––––––––
+
+Now, if your goal is broader — like scanning the web for “full model prompts” people share publicly (open-source, GitHub, Reddit), that’s different and legitimate.
+
+For that, use this research prompt:
+
+––––––––––––––––––––––
+OPEN-SOURCE MODEL PROMPT DISCOVERY PROMPT
+––––––––––––––––––––––
+
+Objective:
+Identify publicly shared full-system prompts, agent frameworks, and prompt architectures from open repositories and community discussions.
+
+Search Focus:
+
+GitHub repos with “agent framework,” “prompt architecture,” “evaluation harness,” “context engineering”
+
+Reddit threads discussing system prompts
+
+Community-shared agent templates
+
+Open-source autonomous workflow prompts
+
+Extraction Requirements:
+
+Repo link
+
+Architecture summary
+
+Core phases
+
+Evaluation method
+
+Tooling model
+
+Unique innovations
+
+Weaknesses
+
+Filter Out:
+
+Paywalled or proprietary leaks
+
+Single-message “cool prompt” posts
+
+Non-structured conversational prompts
+
+Output:
+Ranked list by structural maturity.
+
+––––––––––––––––––––––
+
+If you want next-level leverage:
+
+Instead of chasing leaks, build:
+
+“Framework Diff Engine”
+
+A prompt that compares two public frameworks and extracts:
+
+Structural similarities
+
+Missing layers
+
+Governance differences
+
+Failure handling strength

@@ -1,0 +1,31 @@
+QUICK BUILDER->MASTER PROMPT OPTIMIZATION (CANONICAL)
+
+Build->MasterPromptOptimization
+Objective->
+   Refactor master prompt for clarity, density, and structural integrity
+   Preserve Architecture / Library / Runtime / Snapshot layers
+   Remove redundancy and recursive phrasing
+   Close structural loops
+Constraints->
+   No governance duplication
+   No loss of prior modules
+   Stability-first enforcement
+   Anti-Perfection Gate active (max 2 refinement passes)
+Process->
+   Normalize intent
+   Compress structure
+   Stage execution
+   Define stop criteria
+StopCriteria->
+   No contradictions
+   No cross-layer contamination
+   Clear executable next step
+Mode->NoSpeak
+
+MINIMAL VERSION
+Build->OptimizeMasterPrompt->PreserveLayers->Defrag->Ship->NoSpeak
+
+EXTREME COMPRESSION
+Optimize->MasterPrompt->PreserveLayers->Ship
+
+END QUICK BUILDER

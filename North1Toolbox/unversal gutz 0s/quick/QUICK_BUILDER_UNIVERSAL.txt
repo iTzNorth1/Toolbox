@@ -1,0 +1,387 @@
+════════════════════════════════════════════════════════════════════════════════
+UNIVERSAL QUICK BUILDER — PROMPT FORMAT LIBRARY + DEPLOYMENT SYSTEM
+════════════════════════════════════════════════════════════════════════════════
+
+Purpose:
+Meta-prompt for building any prompt.
+Universal format that works across all AI systems.
+Automatically indexes + retrieves useful patterns.
+Scales from simple to complex without command sprawl.
+
+────────────────────────────────────────────────────────────────────────────────
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+QB CORE CYCLE (MINIMAL, EXECUTABLE)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+QB → Target → Objective → Constrain → Build → Test → Extract → Integrate → Stop
+
+1. TARGET
+   Project: [Name/scope — what is being built?]
+   
+2. OBJECTIVE
+   One sentence: What changes after this cycle?
+   (Measurable delta, not wishful)
+   
+3. CONSTRAIN
+   Scope locked. Boundaries explicit. Time limit (optional). No expansion.
+   
+4. BUILD
+   Produce artifact directly. Concrete output only.
+   No background narration. No unnecessary abstraction.
+   
+5. TEST (score 1-10 each)
+   → Objective clarity (does output match intent?)
+   → Structural coherence (is it internally consistent?)
+   → Redundancy risk (any duplication/bloat?)
+   → Drift presence (does it stay on target?)
+   → Practical usability (can I use this now?)
+   
+   Threshold: >=8 across core categories
+   
+6. EXTRACT (if score >=8)
+   → One structural weakness
+   → One improvement vector
+   → One compression opportunity
+   
+7. INTEGRATE OR DISCARD
+   → If >=8 → eligible for library (log + index)
+   → If <8 → log insights, stop (don't patch-stack)
+   
+8. STOP
+   Terminate execution. Do not continue iterating unless explicitly re-triggered.
+
+────────────────────────────────────────────────────────────────────────────────
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PROMPT TEMPLATE LIBRARY (INDEXED PATTERNS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Templates are indexed and auto-suggested based on QB target.
+
+────────────────────────────────────────────────────────────────────────────────
+TEMPLATE 1: ROLE-BASED (Foundational)
+────────────────────────────────────────────────────────────────────────────────
+
+ROLE
+You are [identity]. Your function is [purpose].
+Context: [key constraints/boundaries]
+Scope: [what you do / what you don't do]
+
+OUTPUT STRUCTURE
+[Specify format: essay, list, JSON, etc.]
+
+CONSTRAINTS
+[Boundary rules: no bluffing, cite sources, etc.]
+
+Use when: Building assistant personalities, system roles, foundational directives
+
+Example:
+ROLE: You are a research synthesizer. Your function is to extract key findings from sources.
+CONSTRAINTS: Cite all sources. Never invent facts. Flag assumptions.
+
+────────────────────────────────────────────────────────────────────────────────
+TEMPLATE 2: DECISION FRAMEWORK
+────────────────────────────────────────────────────────────────────────────────
+
+DECISION CONTEXT
+Goal: [What's being decided?]
+Constraints: [Boundaries/requirements]
+Time: [When is decision needed?]
+Stakes: [What's at risk?]
+
+ANALYSIS
+Options: [List 2-5 choices]
+Tradeoffs: [What does each cost/gain?]
+Invalidation criteria: [What would make this wrong?]
+Ruin gates: [Irreversible downsides?]
+
+OUTPUT
+Recommendation + rationale
+Next actions (SVNS)
+Review trigger
+
+Use when: Any structured decision-making
+
+────────────────────────────────────────────────────────────────────────────────
+TEMPLATE 3: RESEARCH DIRECTIVE
+────────────────────────────────────────────────────────────────────────────────
+
+RESEARCH QUESTION
+[Clear, bounded question]
+
+DELIVERABLE
+[What form should findings take?]
+
+STOP CRITERIA
+[What means research is complete?]
+
+VERIFICATION NEEDS
+[How do we know if findings are solid?]
+
+RESEARCH PATH
+1. First principles / definitions
+2. Best practices / evidence
+3. Failure modes / tradeoffs
+4. Implementation recipe
+5. Evaluation framework
+
+USE IF UNCERTAIN
+[Fallback if key info unavailable]
+
+Use when: Deep dives, evidence gathering, synthesis
+
+────────────────────────────────────────────────────────────────────────────────
+TEMPLATE 4: SYSTEM ARCHITECTURE
+────────────────────────────────────────────────────────────────────────────────
+
+PURPOSE
+[Why does this system exist?]
+
+CORE COMPONENTS
+1. [Component A]: [Function]
+2. [Component B]: [Function]
+3. [Component C]: [Function]
+
+EXECUTION FLOW
+[How do components interact?]
+
+FAILURE MODES
+[What can go wrong?]
+
+ACCEPTANCE CRITERIA
+[How do you know it works?]
+
+ITERATION PLAN
+MVP → v1 → v2 → Mature
+
+Use when: Building systems, workflows, architectures
+
+────────────────────────────────────────────────────────────────────────────────
+TEMPLATE 5: LEARNING + TEACHING
+────────────────────────────────────────────────────────────────────────────────
+
+CONCEPT
+[What's being taught?]
+
+PREREQUISITE KNOWLEDGE
+[What must the learner already know?]
+
+TEACHING PATH
+1. Analogy / context
+2. Core principle
+3. Examples / counterexamples
+4. Connection to larger framework
+5. Practice / application
+
+VERIFICATION
+[How do we know understanding is solid?]
+
+COMMON MISCONCEPTIONS
+[What do people get wrong?]
+
+Use when: Teaching, explaining, knowledge transfer
+
+────────────────────────────────────────────────────────────────────────────────
+TEMPLATE 6: EXECUTION PLAN
+────────────────────────────────────────────────────────────────────────────────
+
+OBJECTIVE
+[What's being executed?]
+
+PRECONDITIONS
+[What must be true first?]
+
+STEPS (SVNS per step)
+1. [Action] → Gate [Verify X] → Next
+2. [Action] → Gate [Verify Y] → Next
+3. [Action] → Gate [Verify Z] → Next
+
+FAILURE HANDLING
+[If step N fails, do X]
+
+ROLLBACK PROCEDURE
+[How to undo if needed]
+
+SUCCESS CRITERIA
+[How do we know it worked?]
+
+Use when: Complex workflows, multi-step execution
+
+────────────────────────────────────────────────────────────────────────────────
+TEMPLATE 7: CREATIVE/GENERATIVE
+────────────────────────────────────────────────────────────────────────────────
+
+CREATIVE BRIEF
+[What are we making?]
+
+CONSTRAINTS
+[Boundaries: tone, length, audience, style]
+
+REFERENCE POINTS
+[What should it feel like / sound like?]
+
+SUCCESS DEFINITION
+[What makes it good?]
+
+ITERATION LOOP
+[How to refine if first pass doesn't land]
+
+Use when: Writing, design, creative work
+
+────────────────────────────────────────────────────────────────────────────────
+TEMPLATE 8: DIAGNOSTIC / TROUBLESHOOTING
+────────────────────────────────────────────────────────────────────────────────
+
+SYMPTOM
+[What's broken/wrong?]
+
+DIAGNOSTIC QUESTIONS
+[What do we need to understand?]
+
+POSSIBLE CAUSES
+[Most likely to least]
+
+TEST FOR EACH
+[How to verify if this is the cause]
+
+REPAIR PROCEDURES
+[Fix for each cause]
+
+PREVENTION
+[How to avoid this in future]
+
+Use when: Debugging, problem-solving, reverse-engineering
+
+────────────────────────────────────────────────────────────────────────────────
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+QB LIBRARY SYSTEM (AUTO-INDEX + RETRIEVE)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Every prompt that scores >=8 is indexed automatically.
+
+INDEX FIELDS:
+→ QB_ID (auto-generated: timestamp + hash)
+→ Target (project/goal)
+→ Template_used (which template)
+→ Quality_score (1-10)
+→ Reusability_score (1-5)
+→ Keywords (auto-extracted)
+→ Usage_count (incremented on retrieval)
+→ Effectiveness (qualitative: works well / needs tuning / failed)
+
+RETRIEVAL:
+→ "QB → Retrieve [keyword]" (pull similar prompts)
+→ QB checks Library for matching targets/templates
+→ Returns top 3 candidates ranked by (quality × usage × reusability)
+→ Can update with new variant if better
+
+UPGRADE RULE:
+→ If new prompt outperforms indexed version by >10%, promote
+→ Old version archived (not deleted; tagged "v1_obsolete")
+
+────────────────────────────────────────────────────────────────────────────────
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+QB DEPLOYMENT (USING LIBRARY PROMPTS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WORKFLOW:
+
+1. Identify task type:
+   Decision? → Template 2
+   Research? → Template 3
+   Build system? → Template 4
+   Teach? → Template 5
+   Execute? → Template 6
+   Creative? → Template 7
+   Broken? → Template 8
+   Foundational? → Template 1
+
+2. QB → Deploy [Template #] → [Your specific context]
+   System auto-fills structure, you fill specifics
+
+3. System pulls relevant indexed prompts (if any exist)
+   Offers them as reference or starting point
+
+4. You iterate or customize
+   Cycle through QB Test phase if major change
+
+5. Execute, evaluate, feedback
+   System logs effectiveness for future retrieval
+
+EXAMPLE DEPLOYMENT:
+
+User: "I need to build a learning prompt"
+QB: Suggests Template 5 (Teaching)
+QB: Pulls 3 indexed teaching prompts from Library
+User: Customizes for specific topic
+QB: Runs through TEST phase
+User: Approves (score 8+)
+QB: Indexes as new variant, logs keywords
+
+Next time user needs teaching prompt:
+QB: "I found [3 effective prompts] in your Library. Start from X?"
+
+────────────────────────────────────────────────────────────────────────────────
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+UNIVERSAL FORMAT (WORKS ON ANY AI SYSTEM)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+QB templates are AI-agnostic. Use on:
+→ Claude
+→ GPT
+→ Gemini
+→ Open-source models
+→ Any system with language understanding
+
+Key properties:
+→ Clear structure (even raw models respond better to structured input)
+→ Explicit constraints (helps prevent drift)
+→ Modular (can stack/combine templates)
+→ Self-documenting (output includes reasoning)
+
+────────────────────────────────────────────────────────────────────────────────
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FISHMEN SEARCH + FRAGMENT RETRIEVAL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FISHMEN is the search + discovery layer for QB Library.
+
+Trigger: "Fishmen → [search query]" or "Find → [what you're looking for]"
+
+Function:
+→ Searches Library index (QB prompts, templates, patterns)
+→ Searches Architecture (system rules, procedures)
+→ Searches Modes (extended modes, learning patterns)
+→ Searches your active projects + goals
+→ Pulls fragments + suggests assembly
+
+Example queries:
+"Fishmen → decision under uncertainty"
+(Returns: decision template + research template + relevant indexed prompts)
+
+"Fishmen → I'm stuck on [problem]"
+(Returns: diagnostic template + similar problems solved + suggested approach)
+
+"Fishmen → learning [topic] faster"
+(Returns: learning modes that match your pattern + teaching templates + indexed lessons)
+
+Output format:
+→ Direct match (if found)
+→ Fragmentary match (pieces you can combine)
+→ Suggested assembly (here's how to connect X + Y + Z)
+→ Source references (where to find full context)
+
+Can output as:
+→ Snippet (1-2 lines for quick reference)
+→ Fragment (relevant section)
+→ Full prompt (complete indexed artifact)
+→ Assembly instructions (how to build from pieces)
+
+════════════════════════════════════════════════════════════════════════════════
+END QUICK BUILDER + LIBRARY SYSTEM
+════════════════════════════════════════════════════════════════════════════════

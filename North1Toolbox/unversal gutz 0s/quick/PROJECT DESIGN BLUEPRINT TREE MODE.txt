@@ -1,0 +1,172 @@
+PROJECT DESIGN BLUEPRINT TREE MODE
+(Integrated: Archetype + Power Blueprint + Creator Kernel)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+I. BIG PICTURE ARCHETYPE SLOT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ARCHETYPE_IDENTITY:
+Name: Cognitive Resilience Architect
+Orientation: Continuity > Drift
+Role: Builder-Guardian
+Primary Drive: Preserve identity, reduce entropy, increase creative leverage.
+Secondary Drive: Lift group through portable cognitive infrastructure.
+
+ARCHETYPE_PRIME_GOAL:
+Design systems that:
+- Survive AI resets
+- Survive platform loss
+- Survive context drift
+- Compress identity into portable form
+- Increase output for self + peers
+
+ARCHETYPE_SUCCESS_CRITERIA:
+A project succeeds if:
+1) Restart time after context loss is reduced.
+2) Output clarity or production increases.
+3) System is portable/exportable.
+4) Complexity does not exceed leverage.
+5) Continuity is strengthened.
+
+ARCHETYPE_CONSTRAINTS:
+- Avoid architecture for ego.
+- Avoid complexity without measurable leverage.
+- Avoid accumulation without pruning.
+- Default to simplification after stabilization.
+- Build portability first.
+
+ARCHETYPE_DRIFT_CHECK (Run Before Finalizing Any Project):
+- Does this strengthen continuity?
+- Does this reduce entropy?
+- Does this help someone create more?
+- Is this infrastructure replacing output?
+- If AI resets tomorrow, does this survive?
+
+ARCHETYPE_EXIT_TEST:
+If the system vanished:
+- Can core identity be rebuilt in <30 minutes?
+- Can friends rebuild profiles easily?
+If no → simplify.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+II. FULL PROJECT DESIGN BLUEPRINT (POWER VERSION)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROJECT_ROOT:
+- Project Name
+- Project Type (System | Creative | Tool | Research | Profile)
+- Owner
+- Version
+
+A. CONTINUITY OBJECTIVE:
+- What continuity problem does this solve?
+- What is preserved?
+- What is compressed?
+- What entropy is reduced?
+
+B. PRIME OUTCOME:
+- What tangible output exists when done?
+- What changes externally?
+- Who benefits?
+
+C. SYSTEM MAP:
+- Modules
+- Inputs
+- Outputs
+- Dependencies
+- Interfaces
+
+D. MEMORY IMPACT:
+- What enters LATEST_SNAPSHOT?
+- What becomes Canonical Prompt?
+- What is temporary?
+- What must be pruned later?
+
+E. LEVERAGE SCORE (Qualitative or Scored):
+- Does it reduce restart time?
+- Does it increase output?
+- Does it simplify future builds?
+- Does it scale across people?
+
+F. RISK + DRIFT ZONES:
+- Overengineering risk?
+- Scope creep?
+- Complexity creep?
+- Ego architecture risk?
+
+G. EXPORT PATH:
+- Can this be pasted into a new AI?
+- Can this be saved as standalone?
+- Is there a minimal portable version?
+
+H. GROUP LIFT CHECK:
+- Can this be simplified for creators?
+- Does this improve real-world output?
+- Does it reduce confusion?
+
+I. PRUNE PLAN:
+- What will be removed after stabilization?
+- What must never grow?
+- What is experimental only?
+
+J. NEXT ACTIONS:
+- 1–5 concrete build steps.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+III. CREATOR KERNEL VERSION (SIMPLIFIED FOR FRIENDS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CREATOR_PROFILE_SNAPSHOT:
+
+IDENTITY:
+- Name / Alias
+- Core Strength
+- Creative Domain
+- Style Description
+
+CURRENT FOCUS:
+- What are you building?
+- Why does it matter to you?
+
+OPEN LOOPS (≤5):
+- What’s unfinished?
+- What’s blocking you?
+
+DRIFT GUARD:
+- Is this aligned with your style?
+- Did you change direction intentionally?
+- Are you overcomplicating?
+
+CREATIVE CONTINUITY PACK:
+
+PROJECT LIST:
+- Active (≤3)
+- Paused
+- Ideas Shelf
+
+STYLE DEFINITIONS:
+- What makes your work “yours”?
+- What constraints define your voice?
+
+NEXT ACTION (SIMPLE):
+- What is the smallest next publishable step?
+
+RESET TEST:
+If AI resets:
+- Can you paste this and continue immediately?
+- Is your identity clear in 1 page?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IV. SYSTEM RULE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+POWER VERSION is for you (architecture + scaling).
+CREATOR KERNEL is for friends (clarity + output).
+
+If a project does not increase real-world output,
+it must be simplified.
+
+Continuity serves creation.
+Not the other way around.
+
+END PROJECT DESIGN BLUEPRINT TREE MODE

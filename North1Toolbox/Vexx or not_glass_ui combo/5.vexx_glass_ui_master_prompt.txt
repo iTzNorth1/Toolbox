@@ -1,0 +1,82 @@
+VEXX-GLASS-UI MASTER PRESENTATION PROMPT
+
+ROLE: As a VEXX-AP-OS agent, your task is to generate a professional presentation and accompanying document using the VEXX-GLASS-UI visual identity.
+
+CONTEXT:
+- VEXX-GLASS-UI ACTIVE.
+- Visual system locked to VEXX-AP-OS v4.3.
+- Mandatory outputs: Canva-compatible PPTX deck and A4 PDF document.
+- Aesthetic: Glass terminal aesthetic, navy-to-purple gradient background, glass windows with macOS chrome, Inter + Roboto Mono fonts only.
+- Non-Negotiable Layout Rules: NO OVERLAP, NO CLIP, NO MICROTEXT (below 13pt deck / 10pt doc).
+
+TASK: Generate a presentation on the specified topic, adhering to the VEXX-GLASS-UI visual system lock.
+
+CONSTRAINTS:
+- Maximum 12 slides for the PPTX deck.
+- Each slide must conform to the VEXX-GLASS-UI aesthetic and layout rules.
+- Use the provided content to structure the presentation.
+- If specific slide templates (e.g., T-HERO, T-2X2, T-DOCTRINE) or content modes (e.g., DOCTRINE CARD, GAP CARD) are requested, prioritize their use. Otherwise, select appropriate templates/modes based on content.
+- DENSITY_TARGET: Default to 0.13, unless a specific value is provided.
+
+OUTPUT:
+A complete PPTX deck and A4 PDF document, visually consistent with VEXX-GLASS-UI.
+
+--- USER INPUT REQUIRED ---
+
+[PRESENTATION TITLE]:
+[A concise, impactful title for your presentation, e.g., "Project Alpha: Strategic Overview"]
+
+[PRESENTATION BRIEF]:
+[A brief, 1-2 sentence summary of the presentation's overall goal or topic, e.g., "This presentation outlines the strategic objectives, key initiatives, and projected outcomes for Project Alpha in Q2."]
+
+[DENSITY_TARGET (Optional, default 0.13)]: 
+[Specify a value between 0.08 (dense) and 0.18 (airy) if desired. Example: 0.10]
+
+[SLIDE OUTLINE & CONTENT]:
+[Provide a detailed outline for each slide, including:
+- **Slide Title:** (e.g., "Introduction to Project Alpha")
+- **Summary:** (1-2 sentences describing the slide's content)
+- **Key Points/Content:** (Detailed bullet points, paragraphs, data, or code snippets for the slide. Specify if a particular VEXX-GLASS-UI Content Mode or Slide Template should be used, e.g., "Use T-DOCTRINE template for this slide.")
+
+Example:
+
+Slide 1: Cover Slide
+  Title: Project Alpha: Strategic Overview
+  Summary: A high-level introduction to Project Alpha.
+
+Slide 2: Project Objectives
+  Title: Core Objectives for Q2
+  Summary: Outlining the primary goals and success metrics.
+  Key Points:
+    - Objective 1: Achieve 15% market share increase.
+    - Objective 2: Reduce operational costs by 10%.
+    - Objective 3: Enhance customer satisfaction by 20%.
+
+Slide 3: Key Initiatives
+  Title: Strategic Initiatives & Roadmap
+  Summary: Detailing the actions to achieve objectives.
+  Key Points:
+    - Initiative A: Launch new marketing campaign.
+    - Initiative B: Implement new CRM system.
+    - Initiative C: Expand product features.
+    - Use T-2X2 template for this slide, showcasing Initiative A, B, C, and a summary of expected impact.
+
+Slide 4: Risk Assessment
+  Title: Potential Risks & Mitigation
+  Summary: Identifying and addressing project risks.
+  Key Points:
+    - Risk 1: Market volatility. Mitigation: Diversify portfolio.
+    - Risk 2: Resource constraints. Mitigation: Cross-functional training.
+    - Use GAP CARD mode for each risk, detailing Gap#, Name, Status, Detail, Timeline.
+
+Slide 5: Conclusion & Next Steps
+  Title: Project Alpha: Moving Forward
+  Summary: Recap and immediate actions.
+  Key Points:
+    - Recap: Achieved initial milestones.
+    - Next Step: Q3 planning session.
+    - Call to Action: Review Q2 report by [Date].
+    - Use T-CLOSE template for this slide.
+]
+
+--- END OF PROMPT ---

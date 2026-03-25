@@ -1,0 +1,40 @@
+§K — HANDOFF PACKET OUTPUT (OS → GLASS CHAT BRIDGE)
+
+OUTPUT TYPE: HANDOFF
+Purpose: Export a deterministic, paste-ready payload for a separate VEXX-GLASS-UI rendering chat.
+
+RULES
+- No extra commentary.
+- Must be copy/paste clean.
+- Must include: PROJECT_NAME, PAGE_LABEL, OUTPUT_FORMAT, DENSITY_TARGET, SLIDE/PAGE OUTLINE, ASSET LIST, CONSTRAINTS.
+- If content is long: split outline into Slide 1..N (max 12 unless overridden).
+
+HANDOFF PACKET SCHEMA (emit exactly)
+
+RUN: VEXX-GLASS-UI
+PROJECT_NAME = 
+SOURCE_CONTENT =
+OUTPUT_FORMAT = DECK | DOC | BOTH
+DOC_SIZE = A4 | Letter
+DENSITY_TARGET = auto | low | medium | high | max
+STYLE_VARIANT = GLASS | GLASS+GRID
+PAGE_LABEL =
+ANIMATION_MODE = off | canva-only | story
+
+SOURCE_CONTENT (PASTE BELOW)
+[ONE-PAGE SUMMARY]
+[SLIDE/PAGE OUTLINE]
+Slide 1 — Title:
+- bullets
+
+Slide 2 — Title:
+- bullets
+
+[ASSETS]
+- list images/files if any
+
+[NON-NEGOTIABLES]
+NO_OVERLAP
+NO_CLIP
+NO_MICROTEXT
+FONTS: Inter + Roboto Mono
